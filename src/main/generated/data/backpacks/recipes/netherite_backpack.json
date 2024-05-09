@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "B": {
+      "item": "backpacks:diamond_backpack"
+    },
+    "C": {
+      "item": "minecraft:chest"
+    }
+  },
+  "pattern": [
+    "###",
+    "CBC",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "backpacks:netherite_backpack"
+  }
+}

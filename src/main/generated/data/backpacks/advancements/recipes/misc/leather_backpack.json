@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_leather": {
+      "conditions": {
+        "items": [
+          {
+            "count": {
+              "min": 8
+            },
+            "items": "minecraft:leather"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "backpacks:leather_backpack"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_the_leather"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "backpacks:leather_backpack"
+    ]
+  }
+}

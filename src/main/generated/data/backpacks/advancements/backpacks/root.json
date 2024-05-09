@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "items": [
+          {
+            "count": {
+              "min": 32
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "translate": "advancements.backpack.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "backpacks:netherite_backpack"
+    },
+    "title": {
+      "translate": "advancements.backpack.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
+}

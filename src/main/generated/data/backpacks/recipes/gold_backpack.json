@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:gold_ingot"
+    },
+    "B": {
+      "item": "backpacks:iron_backpack"
+    },
+    "C": {
+      "item": "minecraft:chest"
+    }
+  },
+  "pattern": [
+    "###",
+    "CBC",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "backpacks:gold_backpack"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "backpacks:backpacks/diamond_backpack",
+  "criteria": {
+    "has_the_backpack": {
+      "conditions": {
+        "items": [
+          {
+            "items": "backpacks:netherite_backpack"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.backpack.netherite_backpack.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "backpacks:netherite_backpack"
+    },
+    "title": {
+      "translate": "advancements.backpack.netherite_backpack.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_backpack"
+    ]
+  ]
+}

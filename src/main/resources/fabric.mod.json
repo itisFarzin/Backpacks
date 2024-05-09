@@ -1,41 +1,34 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "backpacks",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Backpacks",
+	"description": "Backpack Mod by itisFarzin",
 	"authors": [
-		"Me!"
+		"itisFarzin"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/itisFarzin/Backpacks",
+		"sources": "https://github.com/itisFarzin/Backpacks"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/backpacks/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": [
-			"com.example.ExampleMod"
+		"fabric-datagen": [
+			"net.itisfarzin.backpacks.datagen.BackpacksDataGenerator"
 		],
-		"client": [
-			"com.example.ExampleModClient"
+		"main": [
+			"net.itisfarzin.backpacks.Backpacks"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
-		{
-			"config": "modid.client.mixins.json",
-			"environment": "client"
-		}
+		"backpacks.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.10",
 		"minecraft": "~1.20.6",
 		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }

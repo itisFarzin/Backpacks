@@ -1,0 +1,32 @@
+{
+  "parent": "backpacks:backpacks/root",
+  "criteria": {
+    "has_the_backpack": {
+      "conditions": {
+        "items": [
+          {
+            "items": "backpacks:ender_backpack"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.backpack.ender_backpack.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "backpacks:ender_backpack"
+    },
+    "title": {
+      "translate": "advancements.backpack.ender_backpack.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_backpack"
+    ]
+  ]
+}

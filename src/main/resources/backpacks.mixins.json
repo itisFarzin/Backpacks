@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "net.itisfarzin.backpacks.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ServerPlayNetworkHandlerMixin",
+    "ShapedRecipeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

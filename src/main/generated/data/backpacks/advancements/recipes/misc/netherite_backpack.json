@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_netherite_scrap": {
+      "conditions": {
+        "items": [
+          {
+            "count": {
+              "min": 6
+            },
+            "items": "minecraft:netherite_scrap"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "backpacks:netherite_backpack"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_the_netherite_scrap"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "backpacks:netherite_backpack"
+    ]
+  }
+}

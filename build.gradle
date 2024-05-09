@@ -11,24 +11,9 @@ base {
 }
 
 repositories {
-	// Add repositories to retrieve artifacts from in here.
-	// You should only use this when depending on other mods because
-	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
-	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
-	// for more information about repositories.
+	maven { url "https://maven.nucleoid.xyz" }
 }
 
-loom {
-    splitEnvironmentSourceSets()
-
-	mods {
-		"modid" {
-			sourceSet sourceSets.main
-			sourceSet sourceSets.client
-		}
-	}
-
-}
 
 dependencies {
 	// To change the versions see the gradle.properties file
@@ -38,6 +23,10 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+	modImplementation include("eu.pb4:polymer-core:0.8.0-beta.7+1.20.5")
+	modImplementation include("eu.pb4:polymer-resource-pack:0.8.0-beta.7+1.20.5")
+	modImplementation include("eu.pb4:sgui:1.5.0+1.20.5")
 	
 }
 
@@ -61,6 +50,10 @@ java {
 
 	sourceCompatibility = JavaVersion.VERSION_21
 	targetCompatibility = JavaVersion.VERSION_21
+}
+
+fabricApi {
+	configureDataGeneration()
 }
 
 jar {

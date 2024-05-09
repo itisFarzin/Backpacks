@@ -1,0 +1,32 @@
+{
+  "parent": "backpacks:backpacks/iron_backpack",
+  "criteria": {
+    "has_the_backpack": {
+      "conditions": {
+        "items": [
+          {
+            "items": "backpacks:gold_backpack"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.backpack.gold_backpack.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "backpacks:gold_backpack"
+    },
+    "title": {
+      "translate": "advancements.backpack.gold_backpack.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_backpack"
+    ]
+  ]
+}

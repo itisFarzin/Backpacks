@@ -1,9 +1,9 @@
-# Fabric Example Mod
+# Backpack Mod for Fabric (Server Side)
 
-## Setup
+## Libraries Used
+- [sgui](https://github.com/Patbox/sgui) by Patbox
+- [polymer](https://github.com/Patbox/polymer) by Patbox
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Credits:
+- [aaron-mod](https://github.com/AzureAaron/aaron-mod/) by AzureAaron, Reading and saving compounds is based on his mod
+- [server-backpacks](https://github.com/Oliver-makes-code/server-backpacks) by Oliver-makes-code, As a base for this mod

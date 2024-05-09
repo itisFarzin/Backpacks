@@ -1,0 +1,32 @@
+{
+  "parent": "backpacks:backpacks/root",
+  "criteria": {
+    "has_the_backpack": {
+      "conditions": {
+        "items": [
+          {
+            "items": "backpacks:leather_backpack"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.backpack.leather_backpack.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "backpacks:leather_backpack"
+    },
+    "title": {
+      "translate": "advancements.backpack.leather_backpack.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_backpack"
+    ]
+  ]
+}
