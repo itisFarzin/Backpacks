@@ -16,6 +16,8 @@
   "container.backpacks.rename_backpack": "Rename your backpack",
   "container.backpacks.rename_backpack.accept": "Accept the change",
   "container.backpacks.rename_backpack.reset": "Reset to default name",
+  "item.backpacks.backpack.how_to_rename": "Sneak + Right click to rename",
+  "item.backpacks.backpack.size": "Size: %sx%s (%s) slots",
   "item.backpacks.diamond_backpack": "Diamond Backpack",
   "item.backpacks.ender_backpack": "Ender Backpack",
   "item.backpacks.gold_backpack": "Gold Backpack",

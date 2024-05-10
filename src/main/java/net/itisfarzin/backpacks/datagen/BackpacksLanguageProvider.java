@@ -17,6 +17,9 @@ public class BackpacksLanguageProvider extends FabricLanguageProvider {
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) {
         translationBuilder.add(ItemRegistry.BACKPACKS_GROUP, "Backpacks");
 
+        translationBuilder.add("item.backpacks.backpack.size", "Size: %sx%s (%s) slots");
+        translationBuilder.add("item.backpacks.backpack.how_to_rename", "Sneak + Right click to rename");
+
         translationBuilder.add(ItemRegistry.LEATHER_BACKPACK, "Leather Backpack");
         translationBuilder.add(ItemRegistry.IRON_BACKPACK, "Iron Backpack");
         translationBuilder.add(ItemRegistry.GOLD_BACKPACK, "Gold Backpack");

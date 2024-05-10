@@ -30,7 +30,7 @@ public class ItemRegistry {
     public static final BackpackItem NETHERITE_BACKPACK = Registry.register(Registries.ITEM, Backpacks.id("netherite_backpack"),
             new BackpackItem("netherite", 54, new Item.Settings().rarity(Rarity.EPIC)));
 
-    public static final BackpackItem ENDER_BACKPACK = Registry.register(Registries.ITEM, Backpacks.id("ender_backpack"), new BackpackItem("ender", 0, new Item.Settings().rarity(Rarity.RARE)) {
+    public static final BackpackItem ENDER_BACKPACK = Registry.register(Registries.ITEM, Backpacks.id("ender_backpack"), new BackpackItem("ender", 27, new Item.Settings().rarity(Rarity.RARE)) {
         @Override
         public void use(ServerPlayerEntity player, ItemStack stack, int slots) {
             new EnderBackpackGui(player, stack);
